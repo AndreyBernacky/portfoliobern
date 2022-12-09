@@ -1,0 +1,23 @@
+.App {
+    width: 100%;
+    display: flex; justify-content: center;
+}
+.wrapperMain{
+    max-width: 1200px;
+    min-width: 320px;
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+}
+main{
+    width: calc(100% - 300px); margin-left: 300px;
+}
+
+@media all and (max-width:900px){
+    .wrapperMain {
+        display: flex; flex-direction: column;
+    }
+    main{
+        width: 100%; margin-left: 0;
+    }
+}

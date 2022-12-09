@@ -1,0 +1,96 @@
+.contactsMain {
+    padding: 3rem 2rem;
+}
+
+.sectionHeader {
+    margin-bottom: 3em;
+}
+
+.sectionHeader h4 {
+    margin-bottom: 15px;
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.sectionHeader h2 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+}
+
+.contactsContent p {
+    margin-bottom: 1.5rem;
+}
+
+.contactsContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contactsTxt {
+    width: 46%;
+}
+
+.contactsForm {
+    width: 46%;
+}
+.contactsForm div{
+    margin-bottom: 1rem;
+}
+
+.inputText {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 1.42857;
+    color: #555555;
+    appearance: none;
+    box-shadow: none;
+    border: transparent;
+    background: #f2f3f7;
+    height: 54px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+    border-radius: 0;
+}
+.textArea{
+    height: 150px!important;
+}
+
+.btn {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    padding: 8px 15px !important;
+    background: #44a4f2;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+
+@media all and (max-width:600px) {
+    .contactsTxt {
+        width: 100%; margin-bottom: 2rem;
+    }
+
+    .contactsForm {
+        width: 100%;
+    }
+}
+@media all and (max-width:430px) {
+    .contactsMain {
+        padding: 3rem 0;
+    }
+}

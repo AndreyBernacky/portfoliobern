@@ -1,0 +1,15 @@
+.navigationMain{
+    display: flex; flex-direction: column; align-items: center; font-size: 0.875rem;
+}
+.navigationMain li{
+    margin-bottom: 0.5rem;
+}
+.navigationMain li a{
+    text-decoration: none; color: #000;
+}
+.navigationMain li a:hover{
+    border-bottom: 1px solid #2c98f0;
+}
+.navigationMain li a.active{
+    color: #2c98f0; border-bottom: 1px solid #2c98f0;
+}

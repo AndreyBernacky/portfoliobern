@@ -1,0 +1,53 @@
+.experienceItem{
+}
+.experienceTitle{
+    font-weight: 400; margin-bottom: 1.5rem;
+}
+.experienceTitle span{
+    opacity: .5; font-size: 1rem;
+}
+.experienceContent{
+
+}
+.experienceIco{
+    width: 30px;
+    height: 30px;
+    background: #2c98f0;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 0 5px #f2f3f7;
+    line-height: 40px;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+.experienceLabel{
+    position: relative;
+    background: #f2f3f7;
+    padding: 1.5em;
+    margin-left: 60px;
+    background-clip: padding-box;
+}
+.experienceLabel:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 9px 0;
+    border-color: transparent #f2f3f7 transparent transparent;
+    left: 0;
+    top: 5px;
+    margin-left: -9px;
+}
+
+@media all and (max-width:500px) {
+    .experienceIco {
+        width: 20px;
+        height: 20px;
+    }
+    .experienceLabel{
+        margin-left: 45px;
+    }
+}

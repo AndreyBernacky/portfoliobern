@@ -1,0 +1,6 @@
+.socnet{
+    list-style: none; display: flex; margin-bottom: 2rem;
+}
+.socnet li{
+    margin: 0 0.6rem;
+}

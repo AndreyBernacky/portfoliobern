@@ -1,0 +1,33 @@
+.worksMain{
+    padding: 3rem 2rem;
+}
+.sectionHeader{
+    margin-bottom: 3em;
+}
+.sectionHeader h4{
+    margin-bottom: 15px;
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.sectionHeader h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+}
+.workContent p{
+    margin-bottom: 1.5rem;
+}
+.workContent{
+    display: flex; justify-content: space-between; flex-wrap: wrap;
+}
+
+@media all and (max-width:430px) {
+    .worksMain {
+        padding: 3rem 0;
+    }
+}

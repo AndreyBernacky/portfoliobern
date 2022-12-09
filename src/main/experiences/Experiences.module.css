@@ -1,0 +1,48 @@
+.experiencesMain{
+    padding: 3rem 2rem;
+}
+.sectionHeader{
+    margin-bottom: 3em;
+}
+.sectionHeader h4{
+    margin-bottom: 15px;
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.sectionHeader h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+}
+.sectionContent p{
+    margin-bottom: 1.5rem;
+}
+.sectionContent{
+    position: relative;
+}
+.sectionContent:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 4px;
+    background: #f2f3f7;
+    top: 20px;
+    bottom: 0;
+    margin-left: 14px;
+}
+
+@media all and (max-width:500px) {
+    .sectionContent:before {
+        margin-left: 8px;
+    }
+}
+@media all and (max-width:430px) {
+    .experiencesMain {
+        padding: 3rem 0;
+    }
+}

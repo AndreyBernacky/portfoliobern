@@ -1,0 +1,36 @@
+.skillMain{
+    padding: 3rem 2rem;
+}
+.sectionHeader{
+    margin-bottom: 3em;
+}
+.sectionHeader h4{
+    margin-bottom: 15px;
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.sectionHeader h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+}
+.sectionContent p{
+    margin-bottom: 1.5rem;
+}
+.skillsBlock{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 6rem 0 0 0;
+}
+
+@media all and (max-width:430px) {
+    .skillMain {
+        padding: 3rem 0;
+    }
+}

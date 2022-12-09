@@ -1,0 +1,20 @@
+.sideWrap{
+    min-height: 100vh; background: #f2f3f7; padding: 3rem 1rem;
+    display: flex; flex-direction: column; width: 300px; align-items: center;
+    position: fixed;
+}
+.logo{
+    border-radius: 50%; width: 150px; margin-bottom: 1rem;
+}
+.sideWrap>h3{
+    font-size: 1.375rem; font-weight: 600;margin-bottom: 0.275rem;
+}
+.sideWrap>h4{
+    font-size: 1rem; font-weight: 400; margin-bottom: 0.725rem;
+}
+
+@media all and (max-width:900px) {
+    .sideWrap{
+        min-height: auto; width: 100%; position: relative;
+    }
+}

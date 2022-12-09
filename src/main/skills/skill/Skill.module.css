@@ -1,0 +1,61 @@
+.skillsBlockItem{
+    width: 30%;
+    box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+    border-bottom: 2px solid #2c98f0;
+    padding: 4rem 1rem 1rem 1rem;
+    margin-bottom: 6rem;
+    position: relative;
+}
+.skillsBlockItem h3{
+    text-align: center; font-weight: 700;
+}
+.icon {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 50px;
+    display: table;
+    margin: 0 auto;
+    background: #2c98f0;
+}
+.icon:before, .icon:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: ''; }
+.icon:before {
+    top: -30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50px 30px 50px;
+    border-color: transparent transparent #2c98f0 transparent; }
+.icon:after {
+    bottom: -30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 50px 0 50px;
+    border-color: #2c98f0 transparent transparent transparent; }
+.icon span {
+    font-size: 30px;
+    color: #fff;
+    z-index: 1;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1rem; font-weight: 700;
+    text-align: center;
+}
+
+@media (max-width:1000px) {
+    .skillsBlockItem {
+        width: 48%;
+    }
+}
+@media all and (max-width:600px) {
+    .skillsBlockItem {
+        width: 108%;
+    }
+}
